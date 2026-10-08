@@ -57,7 +57,7 @@ function showScreen(screen) {
 
 // ===== Логика =====
 function startQuiz() {
-    const total = ALL_QUESTIONS.length;              // 300
+    const total = ALL_QUESTIONS.length;              // 500
     if (total < QUESTIONS_PER_TEST) {
         alert('Недостаточно вопросов в базе!');
         return;
